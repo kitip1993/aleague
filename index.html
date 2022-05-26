@@ -1,0 +1,171 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="assets/styles/common.styles.css">
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/solid.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/fa.css">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html> -->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="https://unpkg.com/downloadjs@1.4.7"></script>
+    <script type="text/javascript" src="./jszip.js"></script>
+  </head>
+
+  <body>
+    <p><input id='file-selector' type="file" accept="text/txt"></p>
+    <p>首選 <input id='datePicker1' type="date"></p>
+    <p>次選 <input id='datePicker2' type="date"></p>
+    <input id="por" type="radio" checked='true' name="location"><label>保安道</label><br>
+    <input id="css" type="radio" name="location"><label>長順街</label><br>
+    <br>
+    <br>
+    <button onclick="exportCSV()">Export</button>
+  </body>
+
+  <script>
+    const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
+    var userList;
+
+    const fileSelector = document.getElementById('file-selector');
+      fileSelector.addEventListener('change', (event) => {
+      const fileList = event.target.files;
+      let reader = new FileReader()
+      reader.onload = () => {
+        var decoder = new TextDecoder("utf-8");
+        var csvString = decoder.decode(reader.result)
+        userList = csvJSON(csvString)
+      }
+      reader.readAsArrayBuffer(fileList[0])
+    });
+      
+    function readFileAsync(file) {
+         return new Promise((resolve, reject) => {
+            let reader = new FileReader(); 
+            reader.onload = () => {
+               resolve(reader.result);
+            }; 
+            reader.onerror = reject; 
+            reader.readAsArrayBuffer(file);
+         })
+      }
+
+    async function exportCSV() {
+      let date1 = document.getElementById('datePicker1').value
+      let date2 = document.getElementById('datePicker2').value
+      // if(userList == undefined || userList.length == 0 || date1 == undefined || date2 == undefined){
+      //   return
+      // } 
+      
+      var location = {}
+      if(document.getElementById('por').checked) {
+        location.name = "Po On Road Playground"
+        location.id = '2'
+      }
+
+      if(document.getElementById('css').checked) {
+        location.name = "Cheung Shun Street Playground"
+        location.id = '1'
+      }
+
+      modifyPdf(location, date1, date2)
+    }
+
+    async function modifyPdf(location, date1, date2) {
+      // Fetch an existing PDF document
+      const url = './lcs218.pdf'
+  		const existingPdfBytes = await fetch(url).then(res => res.arrayBuffer())
+      var zip = new JSZip();
+
+      function drawText(page, text, x, y) {
+        // Draw a string of text diagonally across the first page
+          page.drawText(text, {
+              x: x,
+              y: y,
+              size: 13,
+              // font: helveticaFont,
+              color: rgb(0, 0, 0)
+          })
+        }
+      let now = new Date()
+
+      for(let i in userList) {
+        let user = userList[i]
+        // Load a PDFDocument from the existing PDF bytes
+        const pdfDoc = await PDFDocument.load(existingPdfBytes)
+
+        // Embed the Helvetica font
+        // const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica)
+
+        // Get the first page of the document
+        const pages = pdfDoc.getPages()
+        const firstPage = pages[0]
+
+        // Get the width and height of the first page
+        const { width, height } = firstPage.getSize()
+
+        drawText(firstPage, user.name, 70, 560)
+        drawText(firstPage, user.hkid, 350, 560)
+        drawText(firstPage, 'Falcon', 70, 525)
+        drawText(firstPage, user.phone, 350, 525)
+        drawText(firstPage, user.address, 70, 495)
+        drawText(firstPage, location.name, 140, 435)
+        drawText(firstPage, location.id, 450, 435)
+        drawText(firstPage, '---------           ---------------', 152, 418)
+        drawText(firstPage, date1.slice(0,7), 75, 342)
+        drawText(firstPage, date1, 320, 342)
+        drawText(firstPage, "20:00        22:00", 425, 342)
+        drawText(firstPage, date2.slice(0,7), 75, 322)
+        drawText(firstPage, date2, 320, 322)
+        drawText(firstPage, "20:00        22:00", 425, 322)
+
+        drawText(firstPage, now.toISOString().slice(0, 10), 105, 115)
+        // Serialize the PDFDocument to bytes (a Uint8Array)
+        const pdfBytes = await pdfDoc.save()
+
+        // Trigger the browser to download the PDF document
+        // download(pdfBytes, "pdf-lib_modification_example.pdf", "application/pdf");
+
+
+        zip.file(user.name+'.pdf', pdfBytes)
+      }
+      
+      zip.generateAsync({
+          type: "base64"
+      }).then(function(content) {
+          window.location.href = "data:application/zip;base64," + content;
+      });  
+    }
+
+    function csvJSON(csv) {
+      const lines = csv.split('\n')
+      const result = []
+      const headers = lines[0].split('|')
+
+      for (let i = 1; i < lines.length; i++) {        
+          if (!lines[i])
+              continue
+          const obj = {}
+          const currentline = lines[i].split('|')
+
+          for (let j = 0; j < headers.length; j++) {
+              obj[headers[j]] = currentline[j]
+          }
+          result.push(obj)
+      }
+      return result
+  }
+  </script>
+</html>
