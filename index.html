@@ -65,9 +65,9 @@
     async function exportCSV() {
       let date1 = document.getElementById('datePicker1').value
       let date2 = document.getElementById('datePicker2').value
-      // if(userList == undefined || userList.length == 0 || date1 == undefined || date2 == undefined){
-      //   return
-      // } 
+      if(userList == undefined || userList.length == 0 || date1 == undefined || date2 == undefined){
+        return
+      } 
       
       var location = {}
       if(document.getElementById('por').checked) {
