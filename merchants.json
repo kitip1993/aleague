@@ -1,128 +1,137 @@
 [
     {
-      "Name": "COA",
-      "website": "https://coa.com.hk/",
-      "Phone": "+852 2813 5787",    
-      "Location": {
-        "Address": "Shop A, LG/F Wah Shin House, 6-10 Shin Hing Street, Central, Hong Kong, Central, Hong Kong",
-        "Lat": 22.2840625,
-        "Lon": 114.1520625
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipO2w4G5hoo5DVIM8cfR7On_uvTW13g7bc3yT3s3=w408-h306-k-no"
-      ],
-      "Platform": []
+        "Id": "2f5aa241-adf1-472c-890f-9b72a1528059",
+        "Name": "COA",
+        "website": "https://coa.com.hk/",
+        "Phone": "+852 2813 5787",    
+        "Location": {
+            "Address": "Shop A, LG/F Wah Shin House, 6-10 Shin Hing Street, Central, Hong Kong, Central, Hong Kong",
+            "Lat": 22.2840625,
+            "Lon": 114.1520625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipO2w4G5hoo5DVIM8cfR7On_uvTW13g7bc3yT3s3=w408-h306-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "The Wise King",
-      "website": "http://www.thewiseking.com/",
-      "Phone": "+852 6258 1344",
-      "Location": {
-        "Address": "25 Staunton Street, Basement, Soho, Tsung Wing Ln, Central, Hong Kong",
-        "Lat": 22.2821875,
-        "Lon": 114.1528125
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipNn0K4NcKIEOmTPWi0VG_hoDbujbFniU085SSjL=w408-h272-k-no"
-      ],
-      "Platform": []
+        "Id": "b4505322-2ca5-4403-9240-3ac271dd613c",
+        "Name": "The Wise King",
+        "website": "http://www.thewiseking.com/",
+        "Phone": "+852 6258 1344",
+        "Location": {
+            "Address": "25 Staunton Street, Basement, Soho, Tsung Wing Ln, Central, Hong Kong",
+            "Lat": 22.2821875,
+            "Lon": 114.1528125
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipNn0K4NcKIEOmTPWi0VG_hoDbujbFniU085SSjL=w408-h272-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "Tell Camellia",
-      "website": "http://www.tellcamellia.hk/",
-      "Phone": "+852 5715 9985",
-      "Location": {
-        "Address": "LG/Floor, H Code, 45 Pottinger St, Central, Hong Kong",
-        "Lat": 22.2823125,
-        "Lon": 114.1545625
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipOB1FTTkIPSl4HZqTbGwWkdQ4OWvxn_AKmwvsrz=w408-h272-k-no"
-      ],
-      "Platform": []
+        "Id":"ee2ba9ca-0b27-4252-aac5-cbf2c603e9fd",
+        "Name": "Tell Camellia",
+        "website": "http://www.tellcamellia.hk/",
+        "Phone": "+852 5715 9985",
+        "Location": {
+            "Address": "LG/Floor, H Code, 45 Pottinger St, Central, Hong Kong",
+            "Lat": 22.2823125,
+            "Lon": 114.1545625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOB1FTTkIPSl4HZqTbGwWkdQ4OWvxn_AKmwvsrz=w408-h272-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "Varga Lounge",
-      "website": "https://vargaloungehk.com/",
-      "Phone": "+852 6114 9234",    
-      "Location": {
-        "Address": "36 Staunton St, Central, Hong Kong",
-        "Lat": 22.2824375,
-        "Lon": 114.1521875
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipPbIecxJorm_tU0En8QTdyf9RphDc5Sg6OpyWUE=w408-h304-k-no"
-      ],
-      "Platform": []
+        "Id": "0b3b658a-0219-40be-a075-c9662c941a5f",
+        "Name": "Varga Lounge",
+        "website": "https://vargaloungehk.com/",
+        "Phone": "+852 6114 9234",    
+        "Location": {
+            "Address": "36 Staunton St, Central, Hong Kong",
+            "Lat": 22.2824375,
+            "Lon": 114.1521875
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipPbIecxJorm_tU0En8QTdyf9RphDc5Sg6OpyWUE=w408-h304-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "BEHIND 69",
-      "website": "http://69onjervois.com/",
-      "Phone": "+852 9758 6715",    
-      "Location": {
-        "Address": "The Chelsea, Behind 69 Jervois Street, Burd St, Sheung Wan, Hong Kong",
-        "Lat": 22.2851875,
-        "Lon": 114.1510625
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipMDKHe2rbPv0UPYMfaLysumIyIo68DhfBC3mXN7=w408-h408-k-no"
-      ],
-      "Platform": []
+        "Id": "b00b6eb9-51ca-4184-a61a-1cf2bbc38e75",
+        "Name": "BEHIND 69",
+        "website": "http://69onjervois.com/",
+        "Phone": "+852 9758 6715",    
+        "Location": {
+            "Address": "The Chelsea, Behind 69 Jervois Street, Burd St, Sheung Wan, Hong Kong",
+            "Lat": 22.2851875,
+            "Lon": 114.1510625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipMDKHe2rbPv0UPYMfaLysumIyIo68DhfBC3mXN7=w408-h408-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "Bocadito",
-      "website": "",
-      "Phone": "+852 2549 2878",
-      "Location": {
-        "Address": "40 Staunton St, Central, Hong Kong",
-        "Lat": 22.2824375,
-        "Lon": 114.1520625
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipOucClIN4vfKdt8JfqvgKXnv7EHDds2eXL8m6tQ=w408-h306-k-no"
-      ],
-      "Platform": []
+        "Id": "2fa567c3-eb8a-48bc-9cbb-13bb65a7ba21",
+        "Name": "Bocadito",
+        "website": "",
+        "Phone": "+852 2549 2878",
+        "Location": {
+            "Address": "40 Staunton St, Central, Hong Kong",
+            "Lat": 22.2824375,
+            "Lon": 114.1520625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOucClIN4vfKdt8JfqvgKXnv7EHDds2eXL8m6tQ=w408-h306-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "Draft Land HK",
-      "website": "",
-      "Phone": "+852 2711 8809",    
-      "Location": {
-        "Address": "63 Wyndham St, Central, Hong Kong",
-        "Lat": 22.2814375,
-        "Lon": 114.1549375
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipMQ4wXSc2c8OdERX9fx7Kbh6f2lpMbYMhrC09Vi=w418-h240-k-no"
-      ],
-      "Platform": []
+        "Id": "1ef0d8bd-68d7-4da3-a205-b470f9fab548",
+        "Name": "Draft Land HK",
+        "website": "",
+        "Phone": "+852 2711 8809",    
+        "Location": {
+            "Address": "63 Wyndham St, Central, Hong Kong",
+            "Lat": 22.2814375,
+            "Lon": 114.1549375
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipMQ4wXSc2c8OdERX9fx7Kbh6f2lpMbYMhrC09Vi=w418-h240-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "THE POET",
-      "website": "https://www.instagram.com/thepoet_bar/",
-      "Phone": "",
-      "Location": {
-        "Address": "G/F, 13 Staunton St, Central, Hong Kong",
-        "Lat": 22.2819375,
-        "Lon": 114.1529375
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipNdE5MOyJ5lE1OW1fPrDFmEzRHqaYUziNRoJO4j=w408-h627-k-no"
-      ],
-      "Platform": []
+        "Id": "f18c4367-889f-4cb0-b55a-5ac8f6462436",
+        "Name": "THE POET",
+        "website": "https://www.instagram.com/thepoet_bar/",
+        "Phone": "",
+        "Location": {
+            "Address": "G/F, 13 Staunton St, Central, Hong Kong",
+            "Lat": 22.2819375,
+            "Lon": 114.1529375
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipNdE5MOyJ5lE1OW1fPrDFmEzRHqaYUziNRoJO4j=w408-h627-k-no"
+        ],
+        "Platform": []
     },
     {
-      "Name": "Quinary",
-      "website": "http://www.quinary.hk/",
-      "Phone": "+852 2851 3223",    
-      "Location": {
-        "Address": "56, 58 Hollywood Rd, Central, Hong Kong",
-        "Lat": 22.2826875,
-        "Lon": 114.1528125
-      },
-      "Resources": [
-        "https://lh5.googleusercontent.com/p/AF1QipOIXKK_8PNq4JHzFvRUUt_gFOOru0pZzjS3sWhl=w408-h272-k-no"
-      ],
-      "Platform": []
+        "Id": "6cadd259-6fad-40b9-a712-dc9095b1f79b",
+        "Name": "Quinary",
+        "website": "http://www.quinary.hk/",
+        "Phone": "+852 2851 3223",    
+        "Location": {
+            "Address": "56, 58 Hollywood Rd, Central, Hong Kong",
+            "Lat": 22.2826875,
+            "Lon": 114.1528125
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOIXKK_8PNq4JHzFvRUUt_gFOOru0pZzjS3sWhl=w408-h272-k-no"
+        ],
+        "Platform": []
     }
   ]
