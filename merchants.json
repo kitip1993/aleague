@@ -1,4 +1,5 @@
-[
+{
+    "Merchants": [
     {
         "Id": "2f5aa241-adf1-472c-890f-9b72a1528059",
         "Name": "COA",
@@ -144,3 +145,4 @@
         "Platforms": []
     }
   ]
+}
