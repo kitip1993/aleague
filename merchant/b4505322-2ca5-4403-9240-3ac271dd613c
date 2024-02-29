@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "b4505322-2ca5-4403-9240-3ac271dd613c",
+        "Name": "The Wise King",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipNn0K4NcKIEOmTPWi0VG_hoDbujbFniU085SSjL=w408-h272-k-no",
+        "Phone": "+852 6258 1344",
+        "Open": true,
+        "Location": {
+            "Address": "25 Staunton Street, Basement, Soho, Tsung Wing Ln, Central, Hong Kong",
+            "Lat": 22.2821875,
+            "Lon": 114.1528125
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipNn0K4NcKIEOmTPWi0VG_hoDbujbFniU085SSjL=w408-h272-k-no"
+        ],
+        "Platforms": []
+    }
+}
