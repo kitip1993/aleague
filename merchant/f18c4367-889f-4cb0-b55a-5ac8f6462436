@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "f18c4367-889f-4cb0-b55a-5ac8f6462436",
+        "Name": "THE POET",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipNdE5MOyJ5lE1OW1fPrDFmEzRHqaYUziNRoJO4j=w408-h627-k-no",
+        "Phone": "",
+        "Open": true,
+        "Location": {
+            "Address": "G/F, 13 Staunton St, Central, Hong Kong",
+            "Lat": 22.2819375,
+            "Lon": 114.1529375
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipNdE5MOyJ5lE1OW1fPrDFmEzRHqaYUziNRoJO4j=w408-h627-k-no"
+        ],
+        "Platforms": []
+    }
+}
