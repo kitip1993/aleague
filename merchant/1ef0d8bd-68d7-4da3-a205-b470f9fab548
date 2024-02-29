@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "1ef0d8bd-68d7-4da3-a205-b470f9fab548",
+        "Name": "Draft Land HK",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipMQ4wXSc2c8OdERX9fx7Kbh6f2lpMbYMhrC09Vi=w418-h240-k-no",
+        "Phone": "+852 2711 8809",
+        "Open": true,
+        "Location": {
+            "Address": "63 Wyndham St, Central, Hong Kong",
+            "Lat": 22.2814375,
+            "Lon": 114.1549375
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipMQ4wXSc2c8OdERX9fx7Kbh6f2lpMbYMhrC09Vi=w418-h240-k-no"
+        ],
+        "Platforms": []
+    }
+}
