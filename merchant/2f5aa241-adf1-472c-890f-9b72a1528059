@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+    "Id": "2f5aa241-adf1-472c-890f-9b72a1528059",
+    "Name": "COA",
+    "Icon": "https://lh5.googleusercontent.com/p/AF1QipO2w4G5hoo5DVIM8cfR7On_uvTW13g7bc3yT3s3=w408-h306-k-no",
+    "Phone": "+852 2813 5787",
+    "Open": true,
+    "Location": {
+        "Address": "Shop A, LG/F Wah Shin House, 6-10 Shin Hing Street, Central, Hong Kong, Central, Hong Kong",
+        "Lat": 22.2840625,
+        "Lon": 114.1520625
+    },
+    "Resources": [
+        "https://lh5.googleusercontent.com/p/AF1QipO2w4G5hoo5DVIM8cfR7On_uvTW13g7bc3yT3s3=w408-h306-k-no"
+    ],
+    "Platforms": []
+  }
+}
