@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "6cadd259-6fad-40b9-a712-dc9095b1f79b",
+        "Name": "Quinary",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipOIXKK_8PNq4JHzFvRUUt_gFOOru0pZzjS3sWhl=w408-h272-k-no",
+        "Phone": "+852 2851 3223",
+        "Open": true,
+        "Location": {
+            "Address": "56, 58 Hollywood Rd, Central, Hong Kong",
+            "Lat": 22.2826875,
+            "Lon": 114.1528125
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOIXKK_8PNq4JHzFvRUUt_gFOOru0pZzjS3sWhl=w408-h272-k-no"
+        ],
+        "Platforms": []
+    }
+}
