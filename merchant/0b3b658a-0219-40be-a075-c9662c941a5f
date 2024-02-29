@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "0b3b658a-0219-40be-a075-c9662c941a5f",
+        "Name": "Varga Lounge",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipPbIecxJorm_tU0En8QTdyf9RphDc5Sg6OpyWUE=w408-h304-k-no",
+        "Phone": "+852 6114 9234",
+        "Open": true,
+        "Location": {
+            "Address": "36 Staunton St, Central, Hong Kong",
+            "Lat": 22.2824375,
+            "Lon": 114.1521875
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipPbIecxJorm_tU0En8QTdyf9RphDc5Sg6OpyWUE=w408-h304-k-no"
+        ],
+        "Platforms": []
+    }
+}
