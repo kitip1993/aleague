@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id": "2fa567c3-eb8a-48bc-9cbb-13bb65a7ba21",
+        "Name": "Bocadito",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipOucClIN4vfKdt8JfqvgKXnv7EHDds2eXL8m6tQ=w408-h306-k-no",
+        "Phone": "+852 2549 2878",
+        "Open": true,
+        "Location": {
+            "Address": "40 Staunton St, Central, Hong Kong",
+            "Lat": 22.2824375,
+            "Lon": 114.1520625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOucClIN4vfKdt8JfqvgKXnv7EHDds2eXL8m6tQ=w408-h306-k-no"
+        ],
+        "Platforms": []
+    }
+}
