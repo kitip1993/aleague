@@ -1,0 +1,18 @@
+{
+  "Merchant": {
+        "Id":"ee2ba9ca-0b27-4252-aac5-cbf2c603e9fd",
+        "Name": "Tell Camellia",
+        "Icon": "https://lh5.googleusercontent.com/p/AF1QipOB1FTTkIPSl4HZqTbGwWkdQ4OWvxn_AKmwvsrz=w408-h272-k-no",
+        "Phone": "+852 5715 9985",
+        "Open": true,
+        "Location": {
+            "Address": "LG/Floor, H Code, 45 Pottinger St, Central, Hong Kong",
+            "Lat": 22.2823125,
+            "Lon": 114.1545625
+        },
+        "Resources": [
+            "https://lh5.googleusercontent.com/p/AF1QipOB1FTTkIPSl4HZqTbGwWkdQ4OWvxn_AKmwvsrz=w408-h272-k-no"
+        ],
+        "Platforms": []
+    }
+}
