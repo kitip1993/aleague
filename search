@@ -1,0 +1,156 @@
+{
+  "Range": {
+    "Lower": 0,
+    "Upper": 500
+  },
+  "Sorting": [
+    {
+      "Name": "Popular",
+      "Code": "POP"
+    },
+    {
+      "Name": "Price",
+      "Code": "PRI"
+    },
+    {
+      "Name": "Distance",
+      "Code": "DIS"
+    }
+  ],
+  "Region": [
+    {
+      "Name": "Hong Kong Island",
+      "Code": "HKI",
+      "District": [
+        {
+          "Name": "Sai Wan",
+          "Code": "SAW"
+        },
+        {
+          "Name": "Sheung Wan",
+          "Code": "SHW"
+        },
+        {
+          "Name": "Kennedy Town",
+          "Code": "KET"
+        },
+        {
+          "Name": "Central",
+          "Code": "CEN"
+        },
+        {
+          "Name": "Wan Chai",
+          "Code": "WAC"
+        },
+        {
+          "Name": "Admiralty",
+          "Code": "ADM"
+        },
+        {
+          "Name": "Causeway Bay",
+          "Code": "CAB"
+        },
+        {
+          "Name": "Tin Hau",
+          "Code": "TIH"
+        },
+        {
+          "Name": "Tai Hang",
+          "Code": "TAH"
+        }
+      ]
+    },
+    {
+      "Name": "Kowloon",
+      "Code": "KOL",
+      "District": [
+        {
+          "Name": "Kowloon City",
+          "Code": "KOC"
+        },
+        {
+          "Name": "Kowloon Tong",
+          "Code": "KOT"
+        },
+        {
+          "Name": "Ho Man Tin",
+          "Code": "HMT"
+        },
+        {
+          "Name": "To Kwa Wan",
+          "Code": "TKW"
+        },
+        {
+          "Name": "Ma Tau Wai",
+          "Code": "MTW"
+        },
+        {
+          "Name": "Hung Hom",
+          "Code": "HUH"
+        },
+        {
+          "Name": "Kai Tak",
+          "Code": "KAT"
+        },
+        {
+          "Name": "Kwun Tong",
+          "Code": "KWT"
+        },
+        {
+          "Name": "Ngau Tau Kok",
+          "Code": "NTK"
+        },
+        {
+          "Name": "Kowloon Bay",
+          "Code": "KOB"
+        }
+      ]
+    },
+    {
+      "Name": "New Territories",
+      "Code": "NET",
+      "District": [
+        {
+          "Name": "Sheung Shui",
+          "Code": "SHS"
+        },
+        {
+          "Name": "Fanling",
+          "Code": "FAN"
+        },
+        {
+          "Name": "Tai Po",
+          "Code": "TAP"
+        },
+        {
+          "Name": "Tai Wai",
+          "Code": "TAW"
+        },
+        {
+          "Name": "Science Park",
+          "Code": "SCP"
+        },
+        {
+          "Name": "Fo Tan",
+          "Code": "FOT"
+        },
+        {
+          "Name": "Ma On Shan",
+          "Code": "MOS"
+        },
+        {
+          "Name": "Sai Kung",
+          "Code": "SAK"
+        },
+        {
+          "Name": "Tseung Kwan O",
+          "Code": "TKO"
+        },
+        {
+          "Name": "Hang Hau",
+          "Code": "HAH"
+        }
+      ]
+    }
+  ]
+}
